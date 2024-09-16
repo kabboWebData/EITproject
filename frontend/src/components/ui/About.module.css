@@ -1,0 +1,79 @@
+/* Container Layout */
+.container {
+  display: flex;
+  flex-direction: row; /* Makes text and image align horizontally */
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #F9FAFC;
+  height: 100vh; /* Sets the height to full viewport */
+}
+
+/* Text Section */
+.textSection {
+  flex: 1;
+  max-width: 50%;
+}
+
+/* Subheading Style */
+.subheading {
+  color:red; /* Red color for 'Who we are' */
+  font-size: 20px;
+  margin-bottom: 20px;
+  
+}
+
+/* Main Heading Style */
+.mainHeading {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #003366; /* Dark blue */
+  margin-bottom: 20px;
+}
+
+/* Description Text */
+.description {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Button Style */
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Image Section */
+.imageSection {
+  flex: 1;
+  position: relative;
+  max-width: 45%; /* Limits the image section to 45% of the container */
+}
+
+/* Image Style */
+.image {
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover; /* Ensures the image covers the entire area without stretching */
+}
+
+/* Motto Box Style */
+.motto {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  background-color: #FFC107;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #333;
+}
